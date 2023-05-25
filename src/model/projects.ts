@@ -1,0 +1,53 @@
+
+
+ export interface projects{
+    id: number;
+    title: string;
+    description: string;
+    image: string;
+    link: string;
+    github: string;
+    completed: boolean;
+    startDate: String;
+    endDate: String;
+}
+
+
+
+
+
+
+
+
+
+export const useProjects =  [
+    {
+        "id": 1,
+        "title": "Exercise Tracker",
+        "description": "A full stack web application that allows users to create an account, log their exercises, and view their exercise history and compare it to other users.",
+        "image": "https://i.imgur.com/2Z3Q1ZM.png",
+        "link": "",
+        "github": "",
+        "completed": true,
+        "startDate": "1/18/2023",
+        "endDate": "5/21/2023"
+
+    },
+
+    {
+        "id": 2,
+        "title": "NP Fit",
+        "description": "This is a fullstack application to generate tailored workouts for the user based on their skill level, at the equiptment at the State University of New York at New Paltz gym.",
+        "image": "https://i.imgur.com/2Z3Q1ZM.png",
+        "link": "",
+        "github": "",
+        "completed": true,
+        "startDate": "1/18/2023",
+        "endDate": "4/30/2023"
+    }
+
+        
+]
+
+
+
