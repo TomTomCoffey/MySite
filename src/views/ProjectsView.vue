@@ -126,7 +126,40 @@ const router = useRouter();
 
     <div v-if="pointer === 2">
     
-        <h2> This is the tony's newburgh lunch</h2>
+        <div class="container">
+            <div class="columns">
+            <div class="column">
+               <div class="box is-one">
+                <figure class="image is-edit">
+                    <img src="../assets/newburghlunch/Screenshot 2023-05-25 at 4.10.25 PM.png">
+                </figure>
+                <br>
+                <figure class="image is-edit">
+                    <img src="../assets/newburghlunch/Screenshot 2023-05-25 at 4.10.45 PM.png">
+                </figure>
+                </div>
+            </div>
+            <div class="column">
+                <div class="title">Tony's Newburgh Lunch Website</div>
+                <hr>
+                <div class="title is-5">About the project</div>
+                <hr>
+                <div class="subtitle">Currently I am working on revamping the Tony's Newburgh Lunch website, while adding more functionality for the business. 
+                    Aside from reworking the front end, there will also be a feature added so that customers can order ahead and pay on their phone.
+                     That order will then automatically be printed out by the POS system to improve efficency for the business. </div>
+                <hr>
+                <div class="title is-5">Technolgy Used</div>
+                <hr>
+                <div class="subtitle">Frontend: React, Typescript, Javascript, Bulma</div>
+                <div class="subtitle">TBD</div> 
+                <div class="subtitle">TBD </div>
+                <hr>
+                <div class="title is-5">This project is current </div>
+                <hr>
+                <div class="subtitle">Though the project is still in the works you can still check out Tony's Newburgh Lunch by clicking <a href="http://www.tonysnewburghlunch.com/index.php">Here</a> </div>
+            </div> 
+        </div>
+       </div>
 
     </div>
 
