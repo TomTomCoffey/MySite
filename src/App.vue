@@ -9,18 +9,16 @@ import Footer from './components/Footer.vue'
 
 <NavBar />
   
-  <div class="container">
+  
   <RouterView />
-  </div>
+
 
 <Footer />
 </template>
 
 <style scoped>
 
-.container{
-background-color: #eeeeee;
-}
+
 
 
 </style>

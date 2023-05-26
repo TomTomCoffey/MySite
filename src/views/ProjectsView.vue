@@ -1,7 +1,5 @@
 
 <script setup lang="ts">
-import { defineComponent } from 'vue'
-import {useProjects, type projects} from "../model/projects";
 import {ref } from 'vue'
 import { useRouter } from 'vue-router';
 
@@ -117,7 +115,7 @@ const router = useRouter();
                 <hr>
                 <div class="title is-5">Check out the app</div>
                 <hr>
-                <div class="subtitle">You can check out this application by clicking <a href="">Here</a> </div>
+                <div class="subtitle">You can check out this application by clicking <a href="https://np-fit-app.onrender.com">Here</a> </div>
             </div> 
         </div>
        </div>
@@ -151,8 +149,8 @@ const router = useRouter();
                 <div class="title is-5">Technolgy Used</div>
                 <hr>
                 <div class="subtitle">Frontend: React, Typescript, Javascript, Bulma</div>
-                <div class="subtitle">TBD</div> 
-                <div class="subtitle">TBD </div>
+                <div class="subtitle"> Backend: TBD</div> 
+                <div class="subtitle"> Database: TBD </div>
                 <hr>
                 <div class="title is-5">This project is current </div>
                 <hr>

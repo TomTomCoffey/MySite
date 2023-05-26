@@ -20,7 +20,7 @@ const isMenuActive = false;
 
 .footer{
     background-color: lightgrey;
-    color: white;
+    color: black;
     padding: 3rem;
     margin-top: 1rem;
     margin-right: -15%;

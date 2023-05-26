@@ -3,40 +3,72 @@
 </script>
 
 <template>
-  <section class="section is-info">
-    <!-- <figure class="image is-64x64">
-  <img src="../assets/tom.png">
-</figure> -->
- 
+ <section class="section">
+   <br>
+  <h1 class="title">Welcome!</h1>
+  <h2 class="subtitle">
+    Hello my name is Thomas Coffey 
+  </h2>
+  
+  
 </section>
+  <div class="c">
 
-   <div class="columns">
-      <div class="column is-left">
+
+    <div class="columns">
+      <div class="column">
+        
+    
         <div class="box is-info">
-         <p class="title is-5">  About me</p>
-         <hr>
-         <p class="subtitle is-6">I am currently a student at The State University of New York at New Paltz pursing a Bachelor's degree in Computer Science. I am currently in my senior year   </p>
-     </div>
+           
+            <div class="container">
+                <figure class="image is-rounded is-128x128">
+                  <img class="is-rounded" src=  "../assets/IMG_0028 Small.jpeg">
+            </figure>
+            <br>
+            <br>
+            <p class="title is-5">About Me</p>
+            </div>
+          
+              <hr>
+                <p class="subtitle is-6"> I am currently a senior at SUNY New Paltz excited to start a career in the feild of Software Engineering.
+                I have a passion for learning new technologies and working on projects that challenge me. I am currently looking for an internship 
+                for the summer/fall of 2023. </p>
 
 
-    <div class="box is-info">
+              <div class="box is-github">
+                <i class="fab fa-github"></i>
+                <a href="https://www.github.com/tomtomcoffey">Github   </a>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <i class="fab fa-linkedin"></i>
+                <a href="https://www.linkedin.com/in/thomas-coffey-26464a114/">Linkedin</a>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <i clss=" fab fas-email"></i>
+               
+
+
+              </div>
+                
+        </div>
+
+     
+      </div>
+      <div class="column is-edit">
+        <div class="box is-info">
       <p class="title is-5"> Education </p>
       <hr>
       <p class="subtitle is-6">The State University of New York at New Paltz</p>
       <p class="subtitle is-6">Bachelor of Science in Computer Science</p>
-      <p class="subtitle is-6">GPA: 3.72</p>
+      <p class="subtitle is-6">GPA: 3.73</p>
       <p class="subtitle is-6">Expected Graduation: Dec 2023</p>
     </div>
 
-
-    <div class="box is-info">
-      <p class="title is-5">Contact</p>
-      <hr>
-      <p class="subtitle is-6">Email: coffeyt1@newpaltz.edu</p>
-      <p class="subtitle is-6">Phone: 845-863-6371</p>
-
-  </div>
-  </div>
   <div class="column is-right">
     <div class="box is-info">
       <p class="title is-5">Skills</p>
@@ -47,82 +79,75 @@
       <p class="subtitle is-6">Tools: Git, Docker, AWS, Azure, Google Cloud </p>
 
     </div>
+
     <div class="box is-info">
-      <p class="title is-5"> Experience </p>
+      <p class="title is-5">Contact</p>
       <hr>
-    
-     
-      
+      <p class="subtitle is-6">Email: coffeyt1@newpaltz.edu</p>
+      <p class="subtitle is-6">Phone: 845-863-6371</p>
 
-    </div>
   
-      
-    
   </div>
- 
-</div>
+  </div>
+        
 
-    
+      </div>
+    </div>
 
+
+
+
+
+
+
+
+
+  </div>
 </template>
 
 <style scoped>
-.column {
-    
-    padding: 10px;
-
-    border-radius: 5px;
-    background-color: transparent;
-    display: block;
-    scroll-behavior: auto;
-}
-
-.section{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: transparent;
-    display: block;
-}
-.box{
-    border: 0px solid rgb(218, 208, 208);
-    color: transparent;
- 
-}
-
 
 .image{
-    margin-left: auto;
-    margin-right: auto;
-    display: block !important;
-    border-radius: 50%;
+ margin-top: -20px;
+ margin-left: -30px;
+ 
+  
 }
 
-.column.is-left{
-    
-    border: 1px solid rgb(218, 208, 208);
-    border-radius: 5px;
-    background-color: #f5f5f5;
-    display: block;
+.box{
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
-.column.is-right{
 
-    border: 1px solid rgb(218, 208, 208);
-    border-radius: 5px;
-    background-color: #BCD5D7;
-    display: block;
 
+.section{
+  background-image: linear-gradient(to right, #f5f7fa, #c3cfe2);
+}
+
+.column {
+  background-color: #f5f7fa;
 }
 
 .title{
-  font: 400 1.5rem/1.5rem 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  font:  bold;
 }
+
 .subtitle{
-  font: 400 1.2rem/1.2rem 'Roboto', sans-serif;
+  font-size: 1rem;
+  margin-top: 3px;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 </style>
