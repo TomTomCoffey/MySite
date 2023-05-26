@@ -52,11 +52,11 @@ const router = useRouter();
             <div class="column">
                <div class="box is-one">
                 <figure class="image is-edit">
-                    <img src="../assets/extracker/Screenshot 2023-05-24 at 4.29.20 PM.png">
+                    <img src="https://i.postimg.cc/ZnnpLcGw/Screenshot-2023-05-24-at-4-29-20-PM.png">
                 </figure>
                 <br>
                 <figure class="image is-edit">
-                    <img src="../assets/extracker/Screenshot 2023-05-24 at 4.31.31 PM.png">
+                    <img src="https://i.postimg.cc/65RLbH7P/Screenshot-2023-05-24-at-4-31-31-PM.png">
                 </figure>
                 </div>
             </div>
@@ -90,11 +90,11 @@ const router = useRouter();
             <div class="column">
                <div class="box is-one">
                 <figure class="image is-edit">
-                    <img src="../assets/npfit/Screenshot 2023-05-24 at 7.21.03 PM.png">
+                    <img src="https://i.postimg.cc/jdz3nqhC/Screenshot-2023-05-24-at-7-21-03-PM.png">
                 </figure>
                 <br>
                 <figure class="image is-edit">
-                    <img src="../assets/npfit/Screenshot 2023-05-24 at 7.21.51 PM.png">
+                    <img src="https://i.postimg.cc/mgmw7P1Z/Screenshot-2023-05-24-at-7-21-51-PM.png">
                 </figure>
                 </div>
             </div>
@@ -129,11 +129,11 @@ const router = useRouter();
             <div class="column">
                <div class="box is-one">
                 <figure class="image is-edit">
-                    <img src="../assets/newburghlunch/Screenshot 2023-05-25 at 4.10.25 PM.png">
+                    <img src="https://i.postimg.cc/QNgcpFRL/Screenshot-2023-05-25-at-4-10-25-PM.png">
                 </figure>
                 <br>
                 <figure class="image is-edit">
-                    <img src="../assets/newburghlunch/Screenshot 2023-05-25 at 4.10.45 PM.png">
+                    <img src="https://i.postimg.cc/LXKZPSD6/Screenshot-2023-05-25-at-4-10-45-PM.png">
                 </figure>
                 </div>
             </div>

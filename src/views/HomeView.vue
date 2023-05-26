@@ -23,7 +23,7 @@
            
             <div class="container">
                 <figure class="image is-rounded is-128x128">
-                  <img class="is-rounded" src=  "../assets/IMG_0028 Small.jpeg">
+                  <img class="is-rounded" src=  "https://i.postimg.cc/cHZcff1z/IMG-0028-Small.jpg">
             </figure>
             <br>
             <br>
