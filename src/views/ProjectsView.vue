@@ -185,7 +185,7 @@ const router = useRouter();
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     background-color:#BCD5D7 ;
     margin-bottom: 1rem;
 }

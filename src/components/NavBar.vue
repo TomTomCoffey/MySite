@@ -1,7 +1,8 @@
 <script setup lang= "ts">
+import { ref } from 'vue';
 import { RouterLink, RouterView } from 'vue-router';
 
-const isMenuActive = false;
+const isMenuActive = ref(false);
 
 </script>
 
