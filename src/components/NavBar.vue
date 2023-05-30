@@ -76,7 +76,10 @@ const isMenuActive = ref(false);
             }
            
           
-
+.navbar-burger{
+  background-color: whitesmoke;
+  color: rgb(60, 59, 59);
+}
 
 
 

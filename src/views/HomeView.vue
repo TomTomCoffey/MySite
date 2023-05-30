@@ -31,9 +31,9 @@
             </div>
           
               <hr>
-                <p class="subtitle is-6"> I am currently a senior at SUNY New Paltz excited to start a career in the feild of Software Engineering.
-                I have a passion for learning new technologies and working on projects that challenge me. I am currently looking for an internship 
-                for the summer/fall of 2023. </p>
+                <p class="subtitle is-6"> I am currently a senior at SUNY New Paltz, eagerly anticipating the start of my career in the field of Software Engineering.
+                   I possess a strong passion for acquiring knowledge about new technologies and undertaking 
+                   challenging projects. At present, I am actively searching for an internship opportunity for the summer or fall of 2023. </p>
 
 
               <div class="box is-github">
@@ -73,18 +73,18 @@
     <div class="box is-info">
       <p class="title is-5">Skills</p>
       <hr>
-      <p class="subtitle is-6">Languages: Java, Typescript , Javascript, C, C#, Python </p>
-      <p class="subtitle is-6">Frameworks: Vue, React, Node, Express, Flask, Django, Bulma  </p>
-      <p class="subtitle is-6">Databases: MySQL, MongoDB </p>
-      <p class="subtitle is-6">Tools: Git, Docker, AWS, Azure, Google Cloud </p>
+      <p class="subtitle is-6"><strong>Languages:</strong> Java, Typescript , Javascript, C, C#, Python </p>
+      <p class="subtitle is-6"><strong>Frameworks:</strong> Vue, React, Node, Express, Flask, Django, Bulma  </p>
+      <p class="subtitle is-6"><strong>Databases:</strong> MySQL, MongoDB </p>
+      <p class="subtitle is-6"><strong>Tools:</strong> Git, Docker, AWS, Azure, Google Cloud </p>
 
     </div>
 
     <div class="box is-info">
       <p class="title is-5">Contact</p>
       <hr>
-      <p class="subtitle is-6">Email: coffeyt1@newpaltz.edu</p>
-      <p class="subtitle is-6">Phone: 845-863-6371</p>
+      <p class="subtitle is-6"><strong>Email: </strong>coffeyt1@newpaltz.edu</p>
+      <p class="subtitle is-6"><strong>Phone: </strong>845-863-6371</p>
 
   
   </div>
@@ -129,14 +129,16 @@
 }
 
 .title{
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 600;
   font:  bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .subtitle{
   font-size: 1rem;
   margin-top: 3px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
