@@ -77,7 +77,7 @@ const isMenuActive = ref(false);
            
           
 .navbar-burger{
-  background-color: whitesmoke;
+  background-color: rgb(32, 31, 31);
   color: rgb(60, 59, 59);
 }
 
