@@ -2,7 +2,7 @@
   <div class="about">
     <div class="box">
         <figure class="image">
-            <img src="../assets/Jake_s_Resume-4.pdf">
+            <img src="../assets/ThomasCoffey_Resume.pdf">
         </figure>
       </div>
   </div>
