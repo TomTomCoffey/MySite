@@ -128,6 +128,8 @@ const router = useRouter();
 
     </div>
 
+    
+
     <div v-if="pointer === 2">
     
         <div class="container">
