@@ -20,6 +20,11 @@ function fit(){
     pointer.value = 0;
 }
 
+function bert(){
+    pointer.value = 3;
+
+}
+
 const router = useRouter();
 
 
@@ -42,6 +47,7 @@ const router = useRouter();
                 <li><div class="button" @click="fit">Fitness Tracker</div></li>
                 <li><div class="button" @click="npFit">NP Fit</div></li>
                 <li><div class="button" @click="tony">Tony's Newburgh Lunch</div></li>
+                <li><div class="button" @click="bert">Question Answering System</div></li>
             </ul>
          </nav>
     </div>
@@ -52,11 +58,11 @@ const router = useRouter();
             <div class="column">
                <div class="box is-one">
                 <figure class="image is-edit">
-                    <img src="https://i.postimg.cc/ZnnpLcGw/Screenshot-2023-05-24-at-4-29-20-PM.png">
+                    <img src="../assets/extracker/extrackerStats.png">
                 </figure>
                 <br>
                 <figure class="image is-edit">
-                    <img src="https://i.postimg.cc/65RLbH7P/Screenshot-2023-05-24-at-4-31-31-PM.png">
+                    <img src="../assets/extracker/extrackerGraph.png">
                 </figure>
                 </div>
             </div>
@@ -129,11 +135,11 @@ const router = useRouter();
             <div class="column">
                <div class="box is-one">
                 <figure class="image is-edit">
-                    <img src="https://i.postimg.cc/QNgcpFRL/Screenshot-2023-05-25-at-4-10-25-PM.png">
+                    <img src="../assets/newburghlunch/tony.png">
                 </figure>
                 <br>
                 <figure class="image is-edit">
-                    <img src="https://i.postimg.cc/LXKZPSD6/Screenshot-2023-05-25-at-4-10-45-PM.png">
+                    <img src="../assets/newburghlunch/menu.png">
                 </figure>
                 </div>
             </div>
@@ -142,23 +148,51 @@ const router = useRouter();
                 <hr>
                 <div class="title is-5">About the project</div>
                 <hr>
-                <div class="subtitle">Currently I am working on revamping the Tony's Newburgh Lunch website, while adding more functionality for the business. 
-                    Aside from reworking the front end, there will also be a feature added so that customers can order ahead and pay on their phone.
-                     That order will then automatically be printed out by the POS system to improve efficency for the business. </div>
+                <div class="subtitle">This was my first ever paid project. I was tasked with creating a user friendly website to improve customer traffic </div>
                 <hr>
-                <div class="title is-5">Technolgy Used</div>
+                <div class="title is-5">This project is finished </div>
                 <hr>
-                <div class="subtitle">Frontend: React, Typescript, Javascript, Bulma</div>
-                <div class="subtitle"> Backend: TBD</div> 
-                <div class="subtitle"> Database: TBD </div>
-                <hr>
-                <div class="title is-5">This project is current </div>
-                <hr>
-                <div class="subtitle">Though the project is still in the works you can still check out Tony's Newburgh Lunch by clicking <a href="http://www.tonysnewburghlunch.com/index.php">Here</a> </div>
+                <div class="subtitle">Check out my work by clicking <a href="http://www.tonysnewburghlunch.com/index.php">Here</a> </div>
             </div> 
         </div>
        </div>
 
+    </div>
+
+    <div v-if="pointer===3">
+
+        <div class="container">
+            <div class="columns">
+            <div class="column">
+               <div class="box is-one">
+                <figure class="image is-edit">
+                    <img src="../assets/qa.png">
+                </figure>
+                <br>
+                <figure class="image is-edit">
+                    <img src="../assets/answer.png">
+                </figure>
+                </div>
+            </div>
+            <div class="column">
+                <div class="title">Question Answering System</div>
+                <hr>
+                <div class="title is-5">About the project</div>
+                <hr>
+                <div class="subtitle">This was a project I developed which uses the BERT natural language processing model to answer questions based on either the Wikipedia API, or through the system's built in Webcrawler</div>
+                <hr>
+                <div class="title is-5">Technolgy Used</div>
+                <hr>
+                <div class="subtitle">Pytorch, Transformers, Python, Javascript, HTML, CSS, PHP </div>
+                <hr>
+
+                <div class="title is-5">This project is finished </div>
+                <hr>
+                <div class="subtitle">Check out my work by clicking <a href="http://cs.newpaltz.edu/p/f23-03/v3/index.php">Here</a> </div>
+            </div> 
+        </div>
+       </div>
+       
     </div>
 
    
