@@ -38,7 +38,7 @@ const isMenuActive = ref(false);
               <div class="field is-grouped">
                 <RouterLink to="/" class="navbar-item">Profile</RouterLink>
                 <RouterLink to="/projects" class="navbar-item">Projects</RouterLink>
-                 <RouterLink to="/about" class="navbar-item">Resume</RouterLink>
+                 <RouterLink to="/resume" class="navbar-item">Resume</RouterLink>
               </div>
             </div>
           </div>
