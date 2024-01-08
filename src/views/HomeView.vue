@@ -60,8 +60,8 @@
             The State University of New York at New Paltz
           </p>
           <p class="subtitle is-6">Bachelor of Science in Computer Science</p>
-          <p class="subtitle is-6">GPA: 3.73</p>
-          <p class="subtitle is-6">Expected Graduation: Dec 2023</p>
+          <p class="subtitle is-6">GPA: 3.71</p>
+          <p class="subtitle is-6">Graduated December 2023</p>
         </div>
 
         <div class="column is-right">
@@ -70,17 +70,17 @@
             <hr />
             <p class="subtitle is-6">
               <strong>Languages:</strong> Java, Typescript , Javascript, C, C#,
-              Python
+              Python, Javascript, HTML, CSS
             </p>
             <p class="subtitle is-6">
               <strong>Frameworks:</strong> Vue, React, Node, Express, Flask,
-              Django, Bulma
+              Django, Bulma, Bootstrap
             </p>
             <p class="subtitle is-6">
               <strong>Databases:</strong> MySQL, MongoDB
             </p>
             <p class="subtitle is-6">
-              <strong>Tools:</strong> Git, Docker, AWS, Azure, Google Cloud
+              <strong>Tools:</strong> Git, Docker, Postman, VS Code, IntelliJ
             </p>
           </div>
 
@@ -88,7 +88,7 @@
             <p class="title is-5">Contact</p>
             <hr />
             <p class="subtitle is-6">
-              <strong>Email: </strong>coffeyt1@newpaltz.edu
+              <strong>Email: </strong>tomcoffey1017@gmail.com
             </p>
             <p class="subtitle is-6"><strong>Phone: </strong>845-863-6371</p>
           </div>
