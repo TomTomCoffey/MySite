@@ -1,96 +1,109 @@
 <script setup lang="ts"></script>
 
 <template>
-  <section class="section">
-    <br />
-    <h1 class="title">Welcome!</h1>
-    <h2 class="subtitle">Hello my name is Thomas Coffey</h2>
+  <section class="hero is-fullheight is-primary">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title is-1">Welcome!</h1>
+        <h2 class="subtitle is-3">Hello, my name is Thomas Coffey</h2>
+      </div>
+    </div>
   </section>
-  <div class="c">
+
+  <div class="container mt-5">
     <div class="columns">
-      <div class="column">
-        <div class="box is-info">
-          <div class="container">
-            <figure class="image is-rounded is-128x128">
-              <img
-                class="is-rounded"
-                src="https://i.postimg.cc/cHZcff1z/IMG-0028-Small.jpg"
-              />
-            </figure>
-            <br />
-            <br />
-            <p class="title is-5">About Me</p>
-          </div>
+      <div class="column is-one-third">
+        <div class="card has-background-info-light">
+          <div class="card-content">
+            <div class="media">
+              <div class="media-left">
+                <figure class="image is-128x128">
+                  <img
+                    class="is-rounded"
+                    src="https://i.postimg.cc/cHZcff1z/IMG-0028-Small.jpg"
+                    alt="Profile Image"
+                  />
+                </figure>
+              </div>
+              <div class="media-content">
+                <p class="title is-4 has-text-info">About Me</p>
+                <div class="content">
+                  <p>
+                    I am a recent graduate from SUNY New Paltz with a Bachelor's
+                    Degree in Computer Science. Currently seeking a full-time
+                    position as a Software Engineer.
+                  </p>
+                  <p>
+                    Passionate about learning new technologies and working on
+                    projects that will help me grow as a developer. Experience
+                    in full-stack development and web development.
+                  </p>
+                  <p>
+                    Currently learning about cloud computing and machine
+                    learning in my spare time.
+                  </p>
+                </div>
+              </div>
+            </div>
 
-          <hr />
-          <p class="subtitle is-6">
-            I am a recent graduate from SUNY New Paltz with a Bachelor's Degree
-            in Computer Science. I am currently looking for a full-time position
-            as a Software Engineer. I am passionate about learning new
-            technologies and working on projects that will help me grow as a
-            developer. I have experience in full-stack development and web
-            development. I am currently learning about cloud computing and
-            machine learning in my spare time.
-          </p>
+            <hr class="my-3" />
 
-          <div class="box is-github">
-            <i class="fab fa-github"></i>
-            <a href="https://www.github.com/tomtomcoffey">Github </a>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <i class="fab fa-linkedin"></i>
-            <a href="https://www.linkedin.com/in/thomas-coffey-26464a114/"
-              >Linkedin</a
-            >
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <i clss=" fab fas-email"></i>
+            <div class="social-icons">
+              <a href="https://www.github.com/tomtomcoffey" target="_blank">
+                <i class="fab fa-github fa-2x"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/thomas-coffey-26464a114/"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin fa-2x"></i>
+              </a>
+              <!-- Add other social icons as needed -->
+            </div>
           </div>
         </div>
       </div>
-      <div class="column is-edit">
-        <div class="box is-info">
-          <p class="title is-5">Education</p>
-          <hr />
-          <p class="subtitle is-6">
-            The State University of New York at New Paltz
-          </p>
-          <p class="subtitle is-6">Bachelor of Science in Computer Science</p>
-          <p class="subtitle is-6">GPA: 3.71</p>
-          <p class="subtitle is-6">Graduated December 2023</p>
+
+      <div class="column">
+        <div class="card has-background-info-light">
+          <div class="card-content">
+            <p class="title is-4 has-text-info">Education</p>
+            <div class="content">
+              <p>The State University of New York at New Paltz</p>
+              <p>Bachelor of Science in Computer Science</p>
+              <p>GPA: 3.71</p>
+              <p>Graduated December 2023</p>
+            </div>
+          </div>
         </div>
 
-        <div class="column is-right">
-          <div class="box is-info">
-            <p class="title is-5">Skills</p>
-            <hr />
-            <p class="subtitle is-6">
-              <strong>Languages:</strong> Java, Typescript , Javascript, C, C#,
-              Python, Javascript, HTML, CSS
-            </p>
-            <p class="subtitle is-6">
-              <strong>Frameworks:</strong> Vue, React, Node, Express, Flask,
-              Django, Bulma, Bootstrap
-            </p>
-            <p class="subtitle is-6">
-              <strong>Databases:</strong> MySQL, MongoDB
-            </p>
-            <p class="subtitle is-6">
-              <strong>Tools:</strong> Git, Docker, Postman, VS Code, IntelliJ
-            </p>
+        <div class="card has-background-info-light mt-3">
+          <div class="card-content">
+            <p class="title is-4 has-text-info">Skills</p>
+            <div class="content">
+              <p>
+                <strong>Languages:</strong> Java, Typescript, Javascript, C, C#,
+                Python, HTML, CSS
+              </p>
+              <p>
+                <strong>Frameworks:</strong> Vue, React, Node, Express, Flask,
+                Django, Bulma, Bootstrap
+              </p>
+              <p><strong>Databases:</strong> MySQL, MongoDB</p>
+              <p>
+                <strong>Tools:</strong> Git, Docker, Postman, VS Code, IntelliJ
+              </p>
+            </div>
           </div>
+        </div>
 
-          <div class="box is-info">
-            <p class="title is-5">Contact</p>
-            <hr />
-            <p class="subtitle is-6">
-              <strong>Email: </strong>tomcoffey1017@gmail.com
-            </p>
-            <p class="subtitle is-6"><strong>Phone: </strong>845-863-6371</p>
+        <div class="card has-background-info-light mt-3">
+          <div class="card-content">
+            <p class="title is-4 has-text-info">Contact</p>
+            <div class="content">
+              <p><strong>Email:</strong> tomcoffey1017@gmail.com</p>
+              <p><strong>Phone:</strong> 845-863-6371</p>
+            </div>
           </div>
         </div>
       </div>
@@ -99,34 +112,34 @@
 </template>
 
 <style scoped>
-.image {
-  margin-top: -20px;
-  margin-left: -30px;
+.hero {
+  background-image: linear-gradient(to right, #3498db, #8e44ad);
 }
 
-.box {
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
-.section {
-  background-image: linear-gradient(to right, #f5f7fa, #c3cfe2);
-}
-
-.column {
-  background-color: #f5f7fa;
-}
-
-.title {
-  font-size: 2rem;
-  font-weight: 600;
-  font: bold;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-
+.title,
 .subtitle {
-  font-size: 1rem;
-  margin-top: 3px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #ecf0f1 !important;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+.card-content {
+  padding: 2rem;
+}
+
+.social-icons a {
+  color: #3498db;
+  margin-right: 1rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  color: #2980b9;
+}
+
+.has-background-info-light {
+  background-color: #f5f7fa !important;
 }
 </style>
