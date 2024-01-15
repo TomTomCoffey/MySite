@@ -4,8 +4,8 @@
   <section class="hero is-fullheight is-primary">
     <div class="hero-body">
       <div class="container">
-        <h1 class="title is-1">Welcome!</h1>
-        <h2 class="subtitle is-3">Hello, my name is Thomas Coffey</h2>
+        <h1 class="title1 is-1">Welcome!</h1>
+        <h2 class="subtitle1 is-3">Hello, my name is Thomas Coffey</h2>
       </div>
     </div>
   </section>
@@ -118,7 +118,7 @@
 
 .title,
 .subtitle {
-  color: #ecf0f1 !important;
+  color: #000405 !important;
 }
 
 .card {
@@ -141,5 +141,17 @@
 
 .has-background-info-light {
   background-color: #f5f7fa !important;
+}
+
+.title1 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #ecf0f1 !important;
+}
+
+.title2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #ecf0f1 !important;
 }
 </style>
