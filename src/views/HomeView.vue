@@ -113,7 +113,7 @@
 
 <style scoped>
 .hero {
-  background-image: linear-gradient(to right, #3498db, #8e44ad);
+  background-image: linear-gradient(to right, #869fa1 0%, #cccccc 100%);
 }
 
 .title,
@@ -153,5 +153,35 @@
   font-size: 2rem;
   font-weight: 600;
   color: #ecf0f1 !important;
+}
+
+@media screen and (max-width: 768px) {
+  .title1 {
+    font-size: 2rem;
+  }
+
+  .title2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .title1 {
+    font-size: 1.5rem;
+  }
+
+  .title2 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .title1 {
+    font-size: 1.2rem;
+  }
+
+  .title2 {
+    font-size: 0.8rem;
+  }
 }
 </style>

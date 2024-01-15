@@ -20,7 +20,7 @@ const isMenuActive = false;
 
 <style scoped>
 .footer {
-  background-color: #3498db;
+  background-color: #34495e;
   color: white;
   padding: 3rem;
   margin-top: 1rem;
