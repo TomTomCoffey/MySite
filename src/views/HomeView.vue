@@ -53,7 +53,7 @@
                 <i class="fab fa-github fa-2x"></i>
               </a>
               <a
-                href="https://www.linkedin.com/in/thomas-coffey-26464a114/"
+                href="https://www.linkedin.com/in/thomas-j-coffey/"
                 target="_blank"
               >
                 <i class="fab fa-linkedin fa-2x"></i>
@@ -156,32 +156,5 @@
 }
 
 @media screen and (max-width: 768px) {
-  .title1 {
-    font-size: 2rem;
-  }
-
-  .title2 {
-    font-size: 1.5rem;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .title1 {
-    font-size: 1.5rem;
-  }
-
-  .title2 {
-    font-size: 1rem;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .title1 {
-    font-size: 1.2rem;
-  }
-
-  .title2 {
-    font-size: 0.8rem;
-  }
 }
 </style>
