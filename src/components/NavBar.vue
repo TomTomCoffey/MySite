@@ -30,7 +30,7 @@ const isMenuActive = ref(false);
               <RouterLink to="/projects" class="navbar-item"
                 >Projects</RouterLink
               >
-              <RouterLink to="/resume" class="navbar-item">Resume</RouterLink>
+              <!-- <RouterLink to="/resume" class="navbar-item">Resume</RouterLink> -->
             </div>
           </div>
         </div>
