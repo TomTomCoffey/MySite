@@ -255,7 +255,8 @@ const router = useRouter();
           <div class="title is-5">This project is finished</div>
           <hr />
           <div class="subtitle">
-            Check out my work by clicking <a href="">Here</a>
+            Check out my work by clicking
+            <a href="https://issue-tracker-six-nu.vercel.app">Here</a>
           </div>
         </div>
       </div>
