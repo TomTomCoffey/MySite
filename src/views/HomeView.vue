@@ -86,8 +86,8 @@
                 Python, HTML, CSS
               </p>
               <p>
-                <strong>Frameworks:</strong> Vue, React, Node, Express, Flask,
-                Django, Bulma, Bootstrap
+                <strong>Frameworks:</strong> Vue, Next, React, Node, Express, Flask,
+                Django, Bulma, Bootstrap, Prisma
               </p>
               <p><strong>Databases:</strong> MySQL, MongoDB</p>
               <p>
