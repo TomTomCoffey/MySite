@@ -248,7 +248,7 @@ const router = useRouter();
           <div class="title is-5">Technolgy Used</div>
           <hr />
           <div class="subtitle">
-            Next, Prisma, MySQL, Zod, Radix UI, Cloudinary
+            Next, Typescript, Javascript, Prisma, MySQL, Zod, Radix UI, Cloudinary
           </div>
           <hr />
 
